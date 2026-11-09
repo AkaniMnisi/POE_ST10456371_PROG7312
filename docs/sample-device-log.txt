@@ -1,0 +1,5 @@
+SMART-X DEMONSTRATION DEVICE LOG
+Device: MS-01 / Moisture Sensor B
+Location: Facility A > Zone 1 > Sub-Zone B
+Purpose: Demonstrate upload, association with a device and download integrity.
+This is synthetic presentation data, not a physical hardware capture.

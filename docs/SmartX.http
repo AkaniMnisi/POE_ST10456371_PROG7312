@@ -1,0 +1,39 @@
+@baseUrl = http://localhost:5080
+### Gateway status
+GET {{baseUrl}}/api/health
+
+### Queue a moisture alert
+POST {{baseUrl}}/api/telemetry/ingest
+Content-Type: application/json
+
+{"sensorId":"MS-01","payload":15}
+
+### Live state
+GET {{baseUrl}}/api/state
+
+### Set pump ON
+POST {{baseUrl}}/api/commands
+Content-Type: application/json
+
+{"sensorId":"PM-01","enabled":true}
+
+### Restore previous pump state
+POST {{baseUrl}}/api/commands/undo
+
+### Disconnect an intermediate node
+POST {{baseUrl}}/api/devices/TP-01/online
+Content-Type: application/json
+
+{"online":false}
+
+### Recomputed route
+GET {{baseUrl}}/api/topology?source=MS-01&target=GW-01
+
+### Query all retained moisture readings
+GET {{baseUrl}}/api/history/MS-01
+
+### Reconnect the intermediate node
+POST {{baseUrl}}/api/devices/TP-01/online
+Content-Type: application/json
+
+{"online":true}
