@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ga+I32vA/6g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emeris\\Documents\\GitHub\\SmartX_Complete_Project\\SmartX_ST10456371_PROG7312\\tests\\SmartX.Tests\\SmartX.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\emeris\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
